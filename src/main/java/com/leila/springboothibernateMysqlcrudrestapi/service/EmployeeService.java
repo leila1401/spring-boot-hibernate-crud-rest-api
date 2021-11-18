@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import com.leila.springboothibernateMysqlcrudrestapi.entity.Employee;
 
-@Repository
+
 public interface EmployeeService {
 	Employee saveEmployee(Employee employee);
 	List<Employee> getAllEmployees();
